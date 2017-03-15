@@ -1,0 +1,8 @@
+{
+  "name": "SortedArray",
+  "version": "2.1.0",
+  "main": "js/SortedArray",
+  "dependencies": {
+    "Type": "aleclarson/Type#2.3.1"
+  }
+}

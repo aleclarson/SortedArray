@@ -1,0 +1,14 @@
+// @flow
+
+declare class SortedArray<T> {
+  array: T[];
+  compare: (a: T, b: T) => number;
+
+  insert(item: T): SortedArray<T>;
+  remove(item: T): SortedArray<T>;
+  search(item: T): number;
+}
+
+declare var module.exports: SortedArray;
+
+module.exports = require('./index')
